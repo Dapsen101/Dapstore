@@ -1,0 +1,27 @@
+.header {
+    background-color: var(--bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+svg {
+    color: var(--accent);
+    font-size: 24px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.cart-icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}

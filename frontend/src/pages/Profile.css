@@ -1,0 +1,45 @@
+.profile-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: none;
+    font-family: Arial, sans-serif;
+}
+
+.user-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.orders {
+    margin-top: 20px;
+}
+
+.order-card {
+    background: #111;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.order-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.not-logged {
+    text-align: center;
+    color: #ff4d4d;
+    font-weight: bold;
+}
