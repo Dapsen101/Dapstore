@@ -8,6 +8,7 @@ import Header from './components/Header';
 import HomePage from './pages/Home';
 import CartPage from './pages/Cart';
 import LoginPage from './pages/Login';
+import Signup from './pages/Signup';
 import ProfilePage from './pages/Profile';
 import CheckoutPage from './pages/Checkout';
 import AdminDashboard from './pages/AdminDashboard';
@@ -26,6 +27,8 @@ const AppContent = () => {
       <Routes>
         {/* PUBLIC */}
         <Route path="/login" element={<LoginPage />} />
+
+          <Route path="/signup" element={<Signup />} />
 
         {/* PROTECTED */}
         <Route path="/" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
